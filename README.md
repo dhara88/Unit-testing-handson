@@ -48,5 +48,11 @@ git config --global user.email `email address`
 git config --global user.name `username`
 
 git commit -m <msg>
+
+login github > my account > settings > developer settings > generate token
+
+git remote set-url origin https://<token>@github.com/<username>/<reponame>
+
+git push
 ```
 
